@@ -1,0 +1,74 @@
+body {
+  background: #f4f6f9;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar-custom {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.navbar-custom .nav-link {
+  color: #fff !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffc107 !important;
+}
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Cards */
+.card-custom {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+  background: #fff;
+}
+
+.card-custom:hover {
+  transform: scale(1.03);
+}
+
+.card-custom img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn-custom {
+  background: #0d6efd !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.btn-custom:hover {
+  background: #6610f2 !important;
+}
+
+/* Forms */
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
